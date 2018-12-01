@@ -1,0 +1,95 @@
+.app {
+    display: flex;
+
+}
+.control {
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 600px;
+    width: 300px;
+    background: rgba(183, 185, 183, 0.7);
+}
+.speed {
+
+    display: flex;
+    flex-direction: row;
+}
+.speed_title {
+    font-size: 20px;
+    color: black;
+    margin-right: 15px;
+}
+.result_time {
+    font-size: 20px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+.algo_list {
+    margin-left: 5%;
+    height: 30px;
+    width: 80%;
+    margin-top: 20px;
+}
+.cell {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-right: 0;
+    border-top:0;
+    cursor: pointer;
+}
+
+.table {
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+.end {
+    background: red;
+}
+
+
+.start {
+    background: orange;
+}
+
+.brick {
+    background: #747373
+}
+.check {
+    background: #88f5cf
+}
+
+.front {
+    background: #a0f4a0
+}
+.path {
+    background: blue;
+}
+.buttons {
+    display: flex;
+}
+.button {
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    text-align:center;
+    cursor: pointer;
+    margin: 15px;
+    
+}
+.start-btn, .continue-btn {
+   
+}
+.stop-btn {
+   
+}
+.reset-btn {
+
+}
+.clearBrick-btn {
+    font-size: 23px;
+}

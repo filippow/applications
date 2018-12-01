@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class='app'>
+    <div class="control">
+      <div class="buttons">
+        <button class="button start-btn">Старт</button>
+        <button class="button continue-btn" disabled="true">Продолжить</button>
+        <button class="button stop-btn" disabled="true">Стоп</button>
+        <button class="button reset-btn">Сброс</button>
+        <button class="button clearBrick-btn">Очистить ограждения</button>
+        <div class="speed">
+          <span class="speed_title">Скорость</span>
+          <input class="range" type="range" min ="5" max="200" value = "5">
+          <span class="result_time">5 ms</span>
+        </div>
+        <select class="algo_list">
+          <option selected value="BFS">Поиск в ширину (BFS)</option>
+          <option value="BFS+">Жадный алгоритм (BFS)</option>
+          <option value="A">A*</option>
+        </select>
+      
+      </div>
+    </div>
+  </div>
+  <script src='app.js' type='module'></script>
+</body>
+</html>
