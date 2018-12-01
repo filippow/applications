@@ -1,0 +1,42 @@
+td {
+    border:1px solid black;
+    width: 75px;
+    height: 75px;
+    background: #befcd7
+}
+table {
+    border-spacing:0px 0px;
+    border-collapse: collapse;
+}
+.container {
+   
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
+}
+.apple {
+    background: red;
+}
+.selected {
+    background-image: url('me.png');
+    background-size: cover;
+    z-index:10;
+    opacity: 0.6;
+}
+.snakeHead {
+    background-image: url('snake.png');
+    background-size: cover;
+    z-index:30;
+}
+.me{
+    background-image: url('me.png');
+    background-color: 'white';
+    background-size: cover;
+}
+.display {
+    width:100%;
+    text-align:center;
+    font-size:50px;
+    margin-top:50px;
+    
+}
